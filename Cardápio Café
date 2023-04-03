@@ -1,0 +1,32 @@
+programa
+{
+	
+	funcao inicio()
+		{
+	     inteiro opcao
+		escreva("Olá! Ficamos felizes em atendelos.Escolha uma opção\n")
+		escreva("1-Café \n")
+		escreva("2-Achocolatado \n")
+		escreva("3-Café com leite \n")
+          leia(opcao)
+          limpa()
+          escolha (opcao)
+          {
+           caso (1): 
+           escreva ("Saindo um Cafézinho\n")
+           pare
+           caso (2): 
+           escreva ("Saindo um achocolatado quentinho\n")
+           pare
+           caso (3):
+           escreva("Saindo um café com leite quentinho\n")
+           pare
+           caso contrario:
+           escreva ("Opção inválida\n")
+          
+          }
+          escreva ("Obrigado pela preferencia, volte sempre")
+          
+		
+	}
+}
