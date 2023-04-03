@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+  //programa voto obrigatório ou opcional
+		inteiro idade 
+		escreva ("Digite sua idade")
+		leia (idade)
+		se (idade<16){
+			escreva ("Não pode votar")
+		}senao se ((idade<18) ou (idade>70)){
+			escreva ("Voto opcional")
+		}senao se(idade<70)
+			escreva ("voto obrigatorio")
+	}
+}
