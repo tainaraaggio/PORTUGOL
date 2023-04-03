@@ -1,0 +1,14 @@
+programa
+{
+	
+	funcao inicio()
+	{
+ inteiro numero
+faca{
+    escreva("Digite um número negativo")
+    leia(numero)
+    }enquanto (numero>0)
+    escreva("Parabéns!!! Você digitou um número negativo")
+    }
+    
+}
