@@ -1,0 +1,27 @@
+programa
+{
+  funcao inicio ()
+  numeros:vetor [1..5] de inteiro 
+  i: inteiro
+  soma: inteiro
+  //Leitura dos valores do vetor
+  para i de 1 ate 5 faca
+    escreva("Digite o valor ", i, " do vetor: ")
+    leia(numeros[i])
+  fimpara
+  
+  //Cálculo da soma dos valores do vetor
+  soma <- 0
+  para i de 1 ate 5 faca
+    soma <- soma + numeros[i]
+  fimpara
+  
+  //Exibição dos valores do vetor e da soma
+  escreva("\nValores do vetor: ")
+  para i de 1 ate 5 faca
+    escreva(numeros[i], " ")
+  fimpara
+  escreva("\nSoma dos valores do vetor: ", soma)
+  
+fimalgoritmo
+}
